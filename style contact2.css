@@ -1,0 +1,134 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 630px;
+    color: aqua;
+    margin-top: 30px;
+    font-size: 50px;
+    
+}
+#box
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+
+}
+
+input
+{
+    width: 300px;
+    height: 30px;
+    background: transparent;
+}
+
+label
+{
+    font-weight: bold;
+    font-size: 25px;
+    color:palevioletred;
+}
+
+body
+{
+    background-image: url(cindralla.jpj.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.line1
+{
+    background-color:silver;
+    backdrop-filter: blur(10px);
+    padding: 20px 20px 20px 20px;
+    margin-top: 40px;
+
+}
+
+.line2
+{
+    background-color:silver;
+    backdrop-filter: blur(10px);
+    padding: 20px 20px 20px 20px;
+    margin-top: 40px;
+}
+
+.Message
+{
+    margin-left: 650px;
+}
+
+button
+{
+    padding: 15px 15px 15px 15px;
+    margin-left: 600px;
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 300px;
+    background-color: aqua;
+
+
+}
+
+button:hover
+{
+    transform: scale(1.1);
+    background-color: crimson;
+   
+    
+}
+
+.navbar
+{
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    /* position: fixed; */
+}
+
+.navpadding
+{
+    padding-left: 850px;
+}
+/* .navbar h2{
+    font-size: medium;
+    margin-left: 200px;
+} */
+
+.logo
+{
+    display: flex;
+    /* position: fixed; */
+    align-items: center;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* position: fixed; */
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}

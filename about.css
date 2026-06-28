@@ -55,14 +55,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
+    width: 100%;
     /* position: fixed; */
-
 }
 
 .navpadding
 {
     padding-left: 850px;
 }
+/* .navbar h2{
+    font-size: medium;
+    margin-left: 200px;
+} */
+
 .logo
 {
     display: flex;
